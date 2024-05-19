@@ -95,7 +95,7 @@ const Users: FC = () => {
 
     return (
         <div>
-            <div className="bg-bg-home w-full h-[650px] flex justify-center items-center mb-20 max-md:h-[500px]">
+            <div className="bg-[url('./assets/bg-min.jpg')] w-full h-[650px] flex justify-center items-center mb-20 max-md:h-[500px]">
                 <div className='flex flex-col w-[380px] gap-4 items-center max-sm:w-full max-sm:px-6'>
                     <h2 className='text-white' style={{ fontSize: "2.5rem", lineHeight: "2.5rem" }}>Test assignment for front-end developer</h2>
                     <p className='text-white' style={{ fontSize: "1rem", lineHeight: "1.75rem" }}>What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with a vast understanding of User design thinking as they'll be building web interfaces with accessibility in mind. They should also be excited to learn, as the world of Front-End Development keeps evolving.</p>
