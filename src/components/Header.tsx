@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { useAppDispatch } from '../store/hooks';
 import { login, logout } from '../store/user/userSlice';
