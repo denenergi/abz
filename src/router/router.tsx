@@ -6,7 +6,7 @@ import Users from "../pages/Users";
 
 export const router = createBrowserRouter([
     {
-        path: '/users',
+        path: '/abz',
         element: <Layout />,
         errorElement: <ErrorPage />,
         children: [

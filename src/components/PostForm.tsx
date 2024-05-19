@@ -8,7 +8,7 @@ const PostForm: FC = () => {
 
     return (
         <div className='rounded-md'>
-            <Form className='grid w-[380px] justify-center items-center max-sm:w-full' method='post'>
+            <Form className='grid w-[380px] justify-center items-center max-sm:w-full' method='post' >
                 <label className="grid mb-10" htmlFor="name">
                     <input type="text" className='input placeholder:text-black' placeholder='Your name' name='name' required minLength={2} />
                 </label>

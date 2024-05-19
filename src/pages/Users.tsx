@@ -38,7 +38,7 @@ export const formAction = async ({ request }: any) => {
         toast.error(err.toString())
     }
 
-    return
+    return null
 }
 
 const Users: FC = () => {

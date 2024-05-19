@@ -14,7 +14,7 @@ export default {
         nunito: ["Nunito", "sans-serif"]
       },
       backgroundImage: {
-        'bg-home': "url('src/assets/bg-min.jpg')"
+        'bg-home': "url('abz/src/assets/bg-min.jpg')"
       }
     },
   },

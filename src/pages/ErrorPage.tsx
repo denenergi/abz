@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const ErrorPage: FC = () => {
   return <div className='min-h-screen bg-slate-900 font-roboto flex justify-center items-center gap-10 text-white flex-col'>
     <img src={img} alt="page not found" />
-    <Link to={'/users'} className="bg-sky-500 rounded-md px-6 py-2 hover:bg-sky-600">
+    <Link to={'/abz'} className="bg-sky-500 rounded-md px-6 py-2 hover:bg-sky-600">
       Back
     </Link>
   </div>

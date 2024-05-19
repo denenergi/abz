@@ -33,12 +33,12 @@ const Header: FC = () => {
     }
     return (
         <header className='flex items-center max-w-[1170px] m-auto justify-between py-3 max-xl:px-10 max-sm:px-4'>
-            <Link className='flex items-center' to={'/users'}>
+            <Link className='flex items-center' to={'/abz'}>
                 <img src={logo} alt="logo" />
                 <p>TESTTASK</p>
             </Link>
             <div className='flex gap-2'>
-                <Link className="btn" to={'/users'}>
+                <Link className="btn" to={'/abz'}>
                     <span>Users</span>
                 </Link>
                 {isAuth ? (
